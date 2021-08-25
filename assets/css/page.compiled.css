@@ -1,0 +1,79 @@
+body {
+  background-image: linear-gradient(to right, #392C5D 33.33%, #504976 100%);
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#contentsection #gradientwrapper {
+  position: relative;
+  margin-top: -50vh;
+  margin-bottom: -25vh;
+}
+#contentsection #gradientwrapper:before {
+  display: block;
+  content: "";
+  height: 50vh;
+  background: linear-gradient(rgba(69, 59, 106, 0), #453b6a);
+}
+#contentsection #gradientwrapper:after {
+  display: block;
+  content: "";
+  height: 25vh;
+  background: linear-gradient(#453b6a, rgba(69, 59, 106, 0));
+}
+#contentsection #contentwrapper {
+  position: relative;
+  z-index: 100;
+  top: -13vw;
+}
+#contentsection #contentwrapper #headerbox button {
+  opacity: 0;
+  transition: opacity 1s;
+}
+#contentsection #contentwrapper #headerbox h1 {
+  position: relative;
+}
+#contentsection #contentwrapper #headerbox h1:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.25);
+  z-index: 0;
+  filter: blur(120px);
+  mix-blend-mode: lighten;
+}
+#contentsection #contentwrapper #headerbox h1 * {
+  position: relative;
+}
+#contentsection #contentwrapper #contentbox form {
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 60px rgba(0, 0, 0, 0.2) inset;
+}
+#contentsection #contentwrapper #contentbox form input[type=text],
+#contentsection #contentwrapper #contentbox form textarea {
+  background: transparent;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+#contentsection #contentwrapper #contentbox form #formbox h1, #contentsection #contentwrapper #contentbox form #formbox h2, #contentsection #contentwrapper #contentbox form #formbox h3, #contentsection #contentwrapper #contentbox form #formbox h4, #contentsection #contentwrapper #contentbox form #formbox h5, #contentsection #contentwrapper #contentbox form #formbox h6,
+#contentsection #contentwrapper #contentbox form #formbox .h1, #contentsection #contentwrapper #contentbox form #formbox .h2, #contentsection #contentwrapper #contentbox form #formbox .h3, #contentsection #contentwrapper #contentbox form #formbox .h4, #contentsection #contentwrapper #contentbox form #formbox .h5, #contentsection #contentwrapper #contentbox form #formbox .h6 {
+  font-family: var(--bs-font-sans-serif);
+  font-weight: 500;
+}
+#contentsection #contentwrapper #contentbox form .addressbox {
+  background: rgba(255, 255, 255, 0.85);
+}
+#contentsection #contentwrapper #contentbox form .addressbox .row {
+  filter: invert(100%);
+}
+#contentsection #contentwrapper #contentbox form button[type=submit] {
+  font-weight: 500;
+}
+#contentsection #contentwrapper #contentbox .carousel {
+  border: 10px solid white;
+}
