@@ -19,7 +19,8 @@
 <body>
     <main>
         <div id="filmsection">
-            <div class="ratio ratio-2-1 w-100"><video width="2560" height="1280" autoplay="" muted="" poster="https://michalbialkowski.github.io/bblanding/assets/img/frame_first.jpg">
+            <div class="d-block d-lg-none ratio ratio-1-1 ratio-sm-3-2 ratio-md-16-9 w-100"><img class="img-fluid" src="assets/img/frame_last.jpg"></div>
+            <div class="d-none d-lg-block ratio ratio-2-1 w-100"><video width="2560" height="1280" autoplay="" muted="" poster="https://michalbialkowski.github.io/bblanding/assets/img/frame_first.jpg">
                     <source src="https://michalbialkowski.github.io/bblanding/assets/video/anim_banner_2_.mp4" type="video/mp4">
                 </video></div>
         </div>
@@ -35,7 +36,10 @@
                                 </div>
                             </div>
                             <div class="col-auto">
-                                <div class="d-flex justify-content-end btnbox"><button class="btn btn-primary d-flex align-items-center rounded-pill px-3" id="replay" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-play-fill" style="font-size: 30px;">
+                                <div class="d-flex d-lg-none justify-content-end btnbox"><a class="btn btn-primary d-flex align-items-center rounded-pill px-3" role="button" id="play" href="https://michalbialkowski.github.io/bblanding/assets/video/anim_banner_2_.mp4" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-play-fill" style="font-size: 30px;">
+                                            <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"></path>
+                                        </svg><span class="d-none d-md-block ms-2 fw-bold">Odtwórz wideo</span></a></div>
+                                <div class="d-none d-lg-flex justify-content-end btnbox"><button class="btn btn-primary d-flex align-items-center rounded-pill px-3" id="replay" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-play-fill" style="font-size: 30px;">
                                             <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"></path>
                                         </svg><span class="d-none d-md-block ms-2 fw-bold">Odtwórz ponownie</span></button></div>
                             </div>
@@ -67,7 +71,7 @@
                                     <div class="mt-5">
                                         <h2 class="h1 mb-3"><span class="text-primary d-block mb-0">Rodzaje kaw specialty</span><span class="d-block display-5">w nowej serii opakowań</span></h2>
                                         <div class="row row-cols-1">
-                                            <div class="col-sm-3 col-lg-4 col-xl-3 col-xxl-2 py-3"><img class="img-fluid" src="assets/img/previews/br_brazylia.jpg"></div>
+                                            <div class="col-6 col-sm-3 col-lg-4 col-xl-3 col-xxl-2 py-3"><img class="img-fluid" src="assets/img/previews/br_brazylia.jpg"></div>
                                             <div class="col-sm-9 col-lg-8 col-xl-9 col-xxl-10 py-3">
                                                 <h3 class="text-primary">Brazylia</h3>
                                                 <p class="fw-bolder mb-2">ASASHI LTDA – N.S. MEDIUGORIE EDNA MIEKO KATO DAI Natural</p>
@@ -76,7 +80,7 @@
                                             </div>
                                         </div>
                                         <div class="row row-cols-1">
-                                            <div class="col-sm-3 col-lg-4 col-xl-3 col-xxl-2 py-3"><img class="img-fluid" src="assets/img/previews/br_etiopia.jpg"></div>
+                                            <div class="col-6 col-sm-3 col-lg-4 col-xl-3 col-xxl-2 py-3"><img class="img-fluid" src="assets/img/previews/br_etiopia.jpg"></div>
                                             <div class="col-sm-9 col-lg-8 col-xl-9 col-xxl-10 py-3">
                                                 <h3 class="text-primary">Etiopia</h3>
                                                 <p class="fw-bolder mb-2">Ethiopia Jimma - EhemoKhalid Shifa Natural Q1</p>
@@ -85,7 +89,7 @@
                                             </div>
                                         </div>
                                         <div class="row row-cols-1">
-                                            <div class="col-sm-3 col-lg-4 col-xl-3 col-xxl-2 py-3"><img class="img-fluid" src="assets/img/previews/br_gwatemala.jpg"></div>
+                                            <div class="col-6 col-sm-3 col-lg-4 col-xl-3 col-xxl-2 py-3"><img class="img-fluid" src="assets/img/previews/br_gwatemala.jpg"></div>
                                             <div class="col-sm-9 col-lg-8 col-xl-9 col-xxl-10 py-3">
                                                 <h3 class="text-primary">Gwatemala</h3>
                                                 <p class="fw-bolder mb-2">Mario Rocinos - washed</p>
@@ -94,7 +98,7 @@
                                             </div>
                                         </div>
                                         <div class="row row-cols-1">
-                                            <div class="col-sm-3 col-lg-4 col-xl-3 col-xxl-2 py-3"><img class="img-fluid" src="assets/img/previews/br_kostaryka.jpg"></div>
+                                            <div class="col-6 col-sm-3 col-lg-4 col-xl-3 col-xxl-2 py-3"><img class="img-fluid" src="assets/img/previews/br_kostaryka.jpg"></div>
                                             <div class="col-sm-9 col-lg-8 col-xl-9 col-xxl-10 py-3">
                                                 <h3 class="text-primary">Kostaryka</h3>
                                                 <p class="fw-bolder mb-2">Wilfrido Acuna - Natural - Villalobos</p>
