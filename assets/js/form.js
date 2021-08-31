@@ -170,7 +170,7 @@ function validateForm() {
 	}
 	
 	if (
-		$('#form_field_35').is(':not(:checked)')
+		$('#form_field_36').is(':not(:checked)')
 	) {
 		errors++;
 		notices.push('#form_group_6');
