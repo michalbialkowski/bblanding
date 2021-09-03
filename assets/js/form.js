@@ -169,8 +169,26 @@ function validateForm() {
 		scrolls.push('#form_field_34');
 	}
 	
+	if ($('#form_field_35').val() == '') {
+		errors++;
+		notices.push('#form_field_35');
+		scrolls.push('#form_field_35');
+	}
+	
+	if ($('#form_field_36').val() == '') {
+		errors++;
+		notices.push('#form_field_36');
+		scrolls.push('#form_field_36');
+	}
+	
+	if ($('#form_field_37').val() == '') {
+		errors++;
+		notices.push('#form_field_37');
+		scrolls.push('#form_field_37');
+	}
+	
 	if (
-		$('#form_field_36').is(':not(:checked)')
+		$('#form_field_39').is(':not(:checked)')
 	) {
 		errors++;
 		notices.push('#form_group_6');
